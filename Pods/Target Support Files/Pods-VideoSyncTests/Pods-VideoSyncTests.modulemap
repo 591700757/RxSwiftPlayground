@@ -1,0 +1,6 @@
+framework module Pods_VideoSyncTests {
+  umbrella header "Pods-VideoSyncTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
