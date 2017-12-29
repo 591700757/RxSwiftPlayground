@@ -17,6 +17,7 @@
 		AA1870DA1FF615970028B389 /* VideoSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1870D91FF615970028B389 /* VideoSyncTests.swift */; };
 		AA1870E51FF615970028B389 /* VideoSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1870E41FF615970028B389 /* VideoSyncUITests.swift */; };
 		AA1870FA1FF621500028B389 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA1870F91FF621500028B389 /* colors.txt */; };
+		AA1870FD1FF6393D0028B389 /* Storyboards-Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1870FC1FF6393D0028B389 /* Storyboards-Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		AA1870E41FF615970028B389 /* VideoSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSyncUITests.swift; sourceTree = "<group>"; };
 		AA1870E61FF615970028B389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1870F91FF621500028B389 /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		AA1870FC1FF6393D0028B389 /* Storyboards-Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboards-Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +136,7 @@
 				AA1870F51FF6160D0028B389 /* Application */,
 				AA1870F41FF6160A0028B389 /* Conponents */,
 				AA1870F31FF616070028B389 /* UI */,
-				AA1870F21FF616030028B389 /* Contants */,
+				AA1870F21FF616030028B389 /* Constants */,
 			);
 			path = VideoSync;
 			sourceTree = "<group>";
@@ -157,16 +159,18 @@
 			path = VideoSyncUITests;
 			sourceTree = "<group>";
 		};
-		AA1870F21FF616030028B389 /* Contants */ = {
+		AA1870F21FF616030028B389 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				AA1870FC1FF6393D0028B389 /* Storyboards-Constants.swift */,
 			);
-			path = Contants;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		AA1870F31FF616070028B389 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AA1870FB1FF635AC0028B389 /* storyboards */,
 				AA1870F61FF6163F0028B389 /* start */,
 			);
 			path = UI;
@@ -195,9 +199,16 @@
 			isa = PBXGroup;
 			children = (
 				AA1870C61FF615970028B389 /* ViewController.swift */,
-				AA1870C81FF615970028B389 /* Main.storyboard */,
 			);
 			path = start;
+			sourceTree = "<group>";
+		};
+		AA1870FB1FF635AC0028B389 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AA1870C81FF615970028B389 /* Main.storyboard */,
+			);
+			path = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,6 +486,7 @@
 			files = (
 				AA1870C71FF615970028B389 /* ViewController.swift in Sources */,
 				AA1870C51FF615970028B389 /* AppDelegate.swift in Sources */,
+				AA1870FD1FF6393D0028B389 /* Storyboards-Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
