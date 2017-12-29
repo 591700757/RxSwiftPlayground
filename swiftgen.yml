@@ -1,0 +1,6 @@
+input_dir: VideoSync/
+output_dir: VideoSync/
+storyboards:
+  paths: UI/storyboards/ 
+  templateName: swift3
+  output: Constants/Storyboards-Constants.swift
